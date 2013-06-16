@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Hu WJ's recorder]]></title>
-  <link href="http://hwjump.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: objective-c | Hu WJ's recorder]]></title>
+  <link href="http://hwjump.github.io/blog/categories/objective-c/atom.xml" rel="self"/>
   <link href="http://hwjump.github.io/"/>
   <updated>2013-06-16T19:38:06+08:00</updated>
   <id>http://hwjump.github.io/</id>
