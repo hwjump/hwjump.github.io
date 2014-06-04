@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Whu's Blog</title><link href="http://hwjump.github.io/" rel="alternate"></link><link href="http://hwjump.github.io/feeds/documentation.atom.xml" rel="self"></link><id>http://hwjump.github.io/</id><updated>2014-06-04T00:00:00+08:00</updated><entry><title>  Blog  Pelican   </title><link href="http://hwjump.github.io/blog-pelican.html" rel="alternate"></link><updated>2014-06-04T00:00:00+08:00</updated><author><name>whu</name></author><id>tag:hwjump.github.io,2014-06-04:blog-pelican.html</id><summary type="html">&lt;h1&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;p&gt;
+
+ 
+my name
+ 
+&lt;/p&gt;</summary><category term="Blog Pelican"></category></entry></feed>
