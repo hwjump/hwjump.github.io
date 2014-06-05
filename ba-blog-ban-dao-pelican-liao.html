@@ -1,84 +1,48 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-        <meta charset="utf-8" />
-        <title>把 Blog 搬到 Pelican 了   </title>
-        <link rel="stylesheet" href="http://hwjump.com/theme/css/main.css" />
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+
+    <meta name="tags" contents="Pelican" />
+
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="http://hwjump.com/">Whu's Blog </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="http://hwjump.com/category/documentation.html">Documentation</a></li>
-                </ul></nav>
+                <h1><a href="http://hwjump.github.io">Whu's Blog <strong></strong></a></h1>
         </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
 <section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="http://hwjump.com/ba-blog-ban-dao-pelican-liao.html" rel="bookmark"
-           title="Permalink to 把 Blog 搬到 Pelican 了   ">把 Blog 搬到 Pelican 了   </a></h1>
-    </header>
-
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-06-04T00:00:00">
-                三 04 六月 2014
-        </abbr>
-
-        <address class="vcard author">
-                By <a class="url fn" href="http://hwjump.com/author/whu.html">whu</a>
-        </address>
-<p>In <a href="http://hwjump.com/category/documentation.html">Documentation</a>. </p>
-<p>tags: <a href="http://hwjump.com/tag/pelican.html">Pelican</a></p>
-</footer><!-- /.post-info -->      <h1></h1>
+  <header>
+    <h2 class="entry-title">
+      <a href="http://hwjump.github.io/ba-blog-ban-dao-pelican-liao.html" rel="bookmark"
+         title="Permalink to 把 Blog 搬到 Pelican 了   ">把 Blog 搬到 Pelican 了   </a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <abbr class="published" title="2014-06-04T00:00:00">
+      三 04 六月 2014
+    </abbr>
+    <address class="vcard author">
+      By <a class="url fn" href="http://hwjump.github.io/author/whu.html">whu</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <h1></h1>
 <p>今天把 Blog 搬到 Pelican 上了，它是一个用 python 写的静态页面生成程序，配置这个比较简单，网上一搜一大把，这里就不写了。托管到 github page。</p>
 <p>Jekyll非常棒，可惜它基于Ruby。对于Python爱好者而言，基于Python的Pelican更加可口。</p>
 <p>今天遇到的唯一的坑就是我的 md 默认不是保存 utf-8的，这直接导致了，make html 之后中文都没了。搜了好久，终于找到原因，乌拉拉。</p>
 <p>以后抽空可以写 blog 了。
  
 </p>
-    </div><!-- /.entry-content -->
-    <div class="comments">
-      <h2>Comments !</h2>
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-        var disqus_identifier = "ba-blog-ban-dao-pelican-liao.html";
-        var disqus_url = "http://hwjump.com/ba-blog-ban-dao-pelican-liao.html";
-        (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://hwjump.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-      </script>
-    </div>
-
-  </article>
+  </div><!-- /.entry-content -->
 </section>
-        <section id="extras" class="body">
-        </section><!-- /#extras -->
-
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
-
-<script type="text/javascript">
-    var disqus_shortname = 'hwjump';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
 </body>
 </html>
