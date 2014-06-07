@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Whu's Blog</title><link href="http://hwjump.com/" rel="alternate"></link><link href="http://hwjump.com/feeds/all.rss.xml" rel="self"></link><id>http://hwjump.com/</id><updated>2014-06-04T00:00:00+08:00</updated><entry><title>把 Blog 搬到 Pelican 了   </title><link href="http://hwjump.com/ba-blog-ban-dao-pelican-liao.html" rel="alternate"></link><updated>2014-06-04T00:00:00+08:00</updated><author><name>whu</name></author><id>tag:hwjump.com,2014-06-04:ba-blog-ban-dao-pelican-liao.html</id><summary type="html">&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;今天把 Blog 搬到 Pelican 上了，它是一个用 python 写的静态页面生成程序，配置这个比较简单，网上一搜一大把，这里就不写了。托管到 github page。&lt;/p&gt;
+&lt;p&gt;Jekyll非常棒，可惜它基于Ruby。对于Python爱好者而言，基于Python的Pelican更加可口。&lt;/p&gt;
+&lt;p&gt;今天遇到的唯一的坑就是我的 md 默认不是保存 utf-8的，这直接导致了，make html 之后中文都没了。搜了好久，终于找到原因，乌拉拉。&lt;/p&gt;
+&lt;p&gt;以后抽空可以写 blog 了。
+ 
+&lt;/p&gt;</summary><category term="Pelican"></category></entry></feed>
